@@ -1,0 +1,17 @@
+{
+  "name": "web-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Yuska",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "express-ws": "^5.0.2",
+    "node-pty": "^0.10.1"
+  }
+}
