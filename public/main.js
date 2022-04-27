@@ -12,6 +12,7 @@ async function connect() {
     }
   });
 
+  // use "address" query string to tell server the connection address of SSH
   const ws = new WebSocket(`ws://${location.host}/terminal?address=yuskawu%40192.168.0.165`);
   const attachAddon = new AttachAddon.AttachAddon(ws);
   const fitAddon = new FitAddon.FitAddon();
